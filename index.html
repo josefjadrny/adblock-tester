@@ -8,6 +8,7 @@
 </head>
 <body>
 <script src="build/src/index.js"></script>
-<button type="button" onclick="alert('Ablock is ' + (adblockTester.isAdblockEnabled() ? 'enabled' : 'disabled'));">Test adblock</button>
+<p><button type="button" onclick="alert('Ablock is ' + (adblockTester.isAdblockEnabled() ? 'enabled' : 'disabled'));">Test adblock</button></p>
+<p><input id="test" type="text" value="ads-banner"/><button type="button" onclick="alert('Your element is ' + (adblockTester.isElementWithIdBlocked(document.getElementById('test').value) ? 'blocked' : 'not blocked'));">Test Element by ID</button></p>
 </body>
 </html>
