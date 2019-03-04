@@ -16,10 +16,11 @@ You can test if this element is blocked with
 
 ```adblockTester.isElementWithIdBlocked('elementId')```
 
+___
 
 Testing functionalities are executed **on-the-fly**, so rather call them once and save the result to your custom variable, cookie etc.
 
-[DEMO](index.html)
+[DEMO HTML](index.html)
 
 [![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
 [![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
