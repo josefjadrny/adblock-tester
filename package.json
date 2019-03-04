@@ -1,0 +1,39 @@
+{
+  "name": "adblock-tester",
+  "version": "0.0.1",
+  "description": "Simple and lightweight library with no dependencies for detect adblock, adblock plus or custom easylist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check",
+    "start:watch": "npx tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josefjadrny/adblock-tester.git"
+  },
+  "keywords": [
+    "adblock",
+    "adblock plus",
+    "easylist",
+    "detect adblock",
+    "test adblock"
+  ],
+  "author": "bc.josefjadrny@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josefjadrny/adblock-tester/issues"
+  },
+  "homepage": "https://github.com/josefjadrny/adblock-tester#readme",
+  "devDependencies": {
+    "tslint": "^5.13.1",
+    "typescript": "~3.1.0",
+    "gts": "^0.9.0"
+  }
+}

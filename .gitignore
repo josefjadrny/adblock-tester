@@ -1,0 +1,6 @@
+# PhpStorm IDE
+.idea
+# node modules
+node_modules
+# builds
+build
